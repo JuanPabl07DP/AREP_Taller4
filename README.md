@@ -116,7 +116,7 @@ Ahora puedes descargar y ejecutar la imagen con:
 
 Video del despliegue:
 
-([Video_DespliegueAWS](./img/))
+([Video_DespliegueAWS](./img/VideoFuncionamientoNubeAWS.mp4))
 
 ## 📌 Autor
 
