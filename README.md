@@ -18,8 +18,6 @@ La aplicación sigue una arquitectura de microservicios con los siguientes compo
 
 - 🛒 **Base de Datos**: MongoDB (opcional, preparado para futuras extensiones)
 
-### 🗿 Diagrama de Arquitectura
-
 ## ✖️ Diseño de Clases
 
 ### Paquete Model
