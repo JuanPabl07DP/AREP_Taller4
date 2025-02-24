@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Cambios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/styles/style.css" rel="stylesheet">
+</head>
+<body style="background-image: url('img/img.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+<nav>
+    <h1 class="font-sigmar">💱 Casa de Cambios</h1>
+</nav>
+
+<main>
+    <div class="calculator-container">
+        <h2>Convertidor de Divisas</h2>
+
+        <label>Moneda de Origen</label>
+        <select id="origen">
+            <option value="USD">USD - Dólar estadounidense</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="COP">COP - Peso colombiano</option>
+            <option value="ARS">ARS - Peso argentino</option>
+            <option value="BRL">BRL - Real brasileño</option>
+        </select>
+
+        <label>Monto</label>
+        <input type="number" id="monto" placeholder="Ingrese el monto">
+
+        <label>Moneda de Destino</label>
+        <select id="destino">
+            <option value="USD">USD - Dólar estadounidense</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="COP">COP - Peso colombiano</option>
+            <option value="ARS">ARS - Peso argentino</option>
+            <option value="BRL">BRL - Real brasileño</option>
+        </select>
+
+        <label>Resultado</label>
+        <input type="text" id="resultado" readonly placeholder="Resultado de la conversión">
+
+        <button id="convertir">Convertir</button>
+
+        <div class="historial">
+            <h3>Historial de Conversiones</h3>
+            <div id="lista-historial"></div>
+        </div>
+    </div>
+</main>
+
+<div class="logo-container">
+    <img src="img/logo.jpeg" alt="Logo AREP" class="logo">
+</div>
+
+<script src="/js/conversion.js"></script>
+</body>
+</html>
