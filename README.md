@@ -112,7 +112,7 @@ Ahora puedes descargar y ejecutar la imagen con:
 
 ## 🔝 Cliente desplegado en AWS
 
-![...](img/)
+![...](img/img_7.png)
 
 Video del despliegue:
 
